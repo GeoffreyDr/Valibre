@@ -1,0 +1,432 @@
+body {
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    line-height: 1.4;
+    color: #333333;
+    background-color: white;
+}
+
+
+  /* New - Navbar; */
+
+/* Main navbar */
+.navbar-Valibre {
+  box-shadow: 0 1px 5px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03);
+  background: white;
+  transition: all 0.3s ease;
+  height: 70px;
+  padding: 0px 30px;
+  display: flex;
+  align-items: right;
+  justify-content: space-between;
+}
+
+/* Logo */
+.navbar-Valibre-brand img {
+  height: 70px;
+}
+
+
+/* Right section */
+.navbar-Valibre-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Basic navbar item */
+.navbar-Valibre-item {
+  cursor: pointer;
+  padding: 0 20px;
+}
+
+/* Navbar link */
+.navbar-Valibre-link {
+  color: #616668;
+  padding-top: 4vh;
+  font-size: 14px;
+}
+.navbar-Valibre-link:hover {
+  color: #da552f;
+  text-decoration: none;
+}
+
+/* Dropdown menu */
+.navbar-Valibre-dropdown-menu {
+  margin-top: 15px;
+  box-shadow: 1px 1px 4px #E6E6E6;
+  border-color: #E6E6E6;
+}
+.navbar-Valibre-dropdown-menu li > a {
+  transition: color 0.3s ease;
+  font-weight: lighter !important;
+  color: #999999 !important;
+  font-size: 15px !important;
+  line-height: 22px !important;
+  padding: 10px 20px;
+}
+.navbar-Valibre-dropdown-menu li > a:hover {
+  background: transparent !important;
+  color: black !important;
+}
+.navbar-Valibre-dropdown-menu:before {
+  content: ' ';
+  height: 10px;
+  width: 10px;
+  position: absolute;
+  right: 10px;
+  top: -6px;
+  background-color: white;
+  transform: rotate(45deg);
+  border-left: 1px solid #E6E6E6;
+  border-top: 1px solid #E6E6E6;
+}
+
+  /* /New - Navbar; */
+
+
+  /* New - Banner; */
+
+.banner {
+  color: white;
+  text-align: center;
+  height: 90vh;
+  /* if you have a 70px navbar => height: calc(100vh - 70px); */
+  background-size: cover !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.banner h1 {
+  font-size: 50px;
+  font-weight: bold;
+  text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
+}
+.banner p {
+  font-size: 25px;
+  font-weight: lighter;
+  color: rgb(255, 255, 255);
+  opacity: 0.6;
+  margin-bottom: 30px;
+}
+
+.banner a {
+	width: 170px;
+	height: 55px;
+	text-align: center;
+}
+
+  /* /New - Banner; */
+
+
+  /* New - Le concept; */
+
+.container {
+	background-color: white;
+	align-items: normal;
+}
+
+}
+
+h1 {
+ font-size: 25px;
+ font-weight: bold;
+  font-weight: lighter;
+  color: black;
+  opacity: 0.6;
+  margin-bottom: 30px;
+
+
+}
+h3 {
+	font-size: 15px;
+  color: black;
+  opacity: 1;
+  margin-bottom: 30px;
+}
+
+.card2 {
+	border: none;
+}
+.row {
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+.card-body1{
+	background: grey;
+	color: black;
+	background-color: white;
+	font: 
+}
+
+.card-body {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 41px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+#leconcept {
+	width: 400px;
+	height: 356px;
+}
+
+.row {
+	width: 100%;
+}
+
+
+    /* /New - Le concept; */
+
+
+
+  /* /New - Comment ça marche; */
+
+#ccm {
+
+}
+
+#img-ccm {
+	align-content: center;
+	width: 100%;
+	height: 90vh;
+
+}
+
+
+  /* /New - Comment ça marche; */
+
+
+
+  /* /New - Céline; */
+
+
+
+.bg-lightgrey {
+    background: #f8f8f8 ;
+    width: 100% ; 
+}
+
+.padding-xxl-tb {
+    padding-top: 35px;
+    padding-bottom: 35px;
+   -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.section-title {
+    font-size: 26px;
+    font-weight: 600;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+
+
+.text-size-lg {
+    font-size: 18px;
+}
+
+.margin-md-tb {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    padding: 15px 15px 15px 15px;
+    margin-bottom: 3.5px;
+    max-width: 320px;
+    margin: 0 auto;
+    height: 350px;
+}
+
+#Véronique {
+	margin-top: 60px;
+	
+}
+
+#Florent {
+	margin-top: 60px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.fa-quote-right: before {
+    content: "";
+}
+
+
+.avatar-lg {
+    width: 100px;
+    width: 100px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.text-size-md {
+    font-size: 16px;
+}
+
+ .padding-xxl {
+    padding: 35px;
+}
+
+
+.container-fluid {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.bg-lightgrey {
+    background: #f8f8f8 !important;
+}
+
+.padding-xxl {
+    padding: 35px;
+}
+
+.img {
+    vertical-align: middle;
+}
+
+.img {
+    border: 0;
+}
+
+.text-size-xl {
+    font-size: 22px;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.margin-sm-tb {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+.text-center {
+    text-align: center;
+}
+
+.btn-brand-color {
+    -webkit-transition: all ease 0.3s;
+    transition: all ease 0.3s;
+    color: white;
+    background-color: #78d1d9;
+}
+
+.btn-messenger {
+    padding: 18px 24px;
+    border-radius: 40px;
+    border: none;
+    text-align: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+
+
+
+
+    /* /New - Céline; */
+
+.rejoindre {
+  color: white;
+  text-align: center;
+  padding: 10px;
+  /* if you have a 70px navbar => height: calc(100vh - 70px); */
+  background-size: cover !important;
+  align-items: center;
+  justify-content: center;
+}
+.rejoindre h1 {
+  font-size: 50px;
+  font-weight: bold;
+  text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
+}
+.rejoindre p {
+  font-size: 25px;
+  font-weight: lighter;
+  color: rgb(255, 255, 255);
+  opacity: 0.6;
+  margin-bottom: 30px;
+}
+
+.rejoindre a {
+	width: 170px;
+	height: 55px;
+	text-align: center;}
+
+
+  /* New - Footer; */
+
+
+
+  .footer {
+  background: #F4F4F4;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 150px;
+  width: 100%;
+  padding: 0px 50px;
+  color: rgba(0,0,0,0.3);
+}
+.footer-links {
+  display: flex;
+  align-items: center;
+}
+.footer-links a {
+  color: black;
+  opacity: 0.15;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 0px 10px;
+}
+.footer-links a:hover {
+  opacity: 1;
+}
+.footer .fa-heart {
+  color: #D23333;
+}
+.footer-copyright {
+	text-orientation: center;
+	text-align: center;
+}
+#logo1 {
+	width: 20vh;
+	height: 20vh;
+}
+
+
+  /* /New - Footer; */
