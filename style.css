@@ -428,6 +428,9 @@ h3 {
 	width: 20vh;
 	height: 20vh;
 }
+h3 {
+	line-height : 30px;
+}
 
 
   /* /New - Footer; */
